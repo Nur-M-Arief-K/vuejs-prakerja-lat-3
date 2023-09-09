@@ -1,4 +1,8 @@
 # latihan-materi-3
+Repositori ini berisi latihan pertemuan ke-3 pelatihan VueJs dari Kartu Prakerja. Latihan ini mencakup pembuatan project menggunakan Vue-CLI, Single File Component(SFC), dan dasar-dasar vuex.
+
+## Latihan
+![latihan](task/latihan.png)
 
 ## Project setup
 ```
