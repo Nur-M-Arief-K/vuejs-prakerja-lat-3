@@ -1,26 +1,37 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <h1>Daftar Kegiatan</h1>
+  <DaftarKegiatan />
+  <FormTambahKegiatan />
+  <NotifikasiHebat />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import FormTambahKegiatan from "./components/FormTambahKegiatan.vue";
+import DaftarKegiatan from "./components/DaftarKegiatan.vue";
+import NotifikasiHebat from "./components/NotifikasiHebat.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HelloWorld
-  }
-}
+    FormTambahKegiatan,
+    DaftarKegiatan,
+    NotifikasiHebat
+  },
+};
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+:root {
+    --hijau: #42b883;
+    --hijau-muda: #52e3a2;
+    --abu-abu: #cacaca;
+}
+
+button {
+  border-style: solid;
+}
+
+.hidden {
+  display: none;
 }
 </style>
